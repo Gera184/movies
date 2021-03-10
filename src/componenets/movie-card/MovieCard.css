@@ -1,0 +1,95 @@
+.main_card {
+  color: #fff;
+  width: 76%;
+  height: 50%;
+  margin: 5% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 77%;
+  background: linear-gradient(to right, wheat, black);
+  -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.card_left {
+  width: 90%;
+}
+
+.card_datails {
+  width: 100%;
+  padding: 3%;
+  margin-top: 2%;
+}
+.card_datails h1 {
+  font-size: 250%;
+}
+.card_right img {
+  height: 40%;
+  width: 70%;
+
+  border-radius: 2%;
+}
+.card_right {
+  border-radius: 2%;
+}
+
+.card_cat {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.PG,
+.year,
+.genre,
+.time {
+  color: fff;
+  padding: 1%;
+  font-weight: bold;
+  border-radius: 1%;
+}
+
+.PG {
+  background: black;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 300ms ease-in-out;
+}
+
+.disc {
+  font-weight: 100;
+  line-height: 200%;
+}
+a {
+  color: darkcyan;
+  display: block;
+  text-decoration: none;
+}
+
+.movie-card-btn {
+  color: #fff;
+  border: none;
+  padding: 2%;
+  outline: none;
+  font-size: 120%;
+  margin-top: 5%;
+  margin-left: 3%;
+  background: black;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 300ms ease-in-out;
+  -o-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.movie-card-btn:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
