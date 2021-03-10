@@ -5,13 +5,16 @@ import "./App.css";
 
 import { Deatils } from "./componenets/deatils/Deatils";
 import { Home } from "./componenets/home/Home";
+import { Header } from "./componenets/header/Header";
 
 export default () => {
   return (
     <div className="main-app">
+      <Header />
       <Router>
         <Switch>
-          <Route path="/" component={Home} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
           <Route exact path="/deatils" component={Deatils} />
         </Switch>
       </Router>

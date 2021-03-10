@@ -1,0 +1,10 @@
+.netflix {
+  color: red;
+  font-size: 300%;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+a:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}

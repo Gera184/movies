@@ -13,6 +13,7 @@ export const MovieCard = ({
   Country,
   Awards,
   Actors,
+  image,
 }) => {
   return (
     <div class="wrapper">
@@ -56,6 +57,7 @@ export const MovieCard = ({
           </div>
         </div>
       </div>
+      <img src={image} alt="" />
     </div>
   );
 };
