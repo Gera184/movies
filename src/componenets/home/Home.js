@@ -46,7 +46,7 @@ export const Home = () => {
   useEffect(() => {
     axios
       .request(
-        `http://www.omdbapi.com/?apikey=${API_KEY}&t=${movies[i].MovieName}`
+        `https://www.omdbapi.com/?apikey=${API_KEY}&t=${movies[i].MovieName}`
       )
       .then(function (response) {
         setMovieName(response.data);
@@ -57,7 +57,7 @@ export const Home = () => {
       });
     axios
       .request(
-        `http://www.omdbapi.com/?apikey=${API_KEY}&t=${movies[a].MovieName}`
+        `https://www.omdbapi.com/?apikey=${API_KEY}&t=${movies[a].MovieName}`
       )
       .then(function (response) {
         setMovieName2(response.data);
@@ -67,7 +67,7 @@ export const Home = () => {
       });
     axios
       .request(
-        `http://www.omdbapi.com/?apikey=${API_KEY}&t=${movies[h].MovieName}`
+        `https://www.omdbapi.com/?apikey=${API_KEY}&t=${movies[h].MovieName}`
       )
       .then(function (response) {
         setMovieName3(response.data);
@@ -77,7 +77,7 @@ export const Home = () => {
       });
     axios
       .request(
-        `http://www.omdbapi.com/?apikey=${API_KEY}&t=${movies[j].MovieName}`
+        `https://www.omdbapi.com/?apikey=${API_KEY}&t=${movies[j].MovieName}`
       )
       .then(function (response) {
         setMovieName4(response.data);
@@ -87,7 +87,7 @@ export const Home = () => {
       });
     axios
       .request(
-        `http://www.omdbapi.com/?apikey=${API_KEY}&t=${movies[k].MovieName}`
+        `https://www.omdbapi.com/?apikey=${API_KEY}&t=${movies[k].MovieName}`
       )
       .then(function (response) {
         setMovieName5(response.data);
